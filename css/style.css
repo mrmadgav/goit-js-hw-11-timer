@@ -1,0 +1,64 @@
+button {
+  width: 50;
+  border-radius: 4px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+  background-color: #fff;
+  color: #212121;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #3e9fee;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.timer,
+.btn-box {
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.field {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  background: #292727;
+}
+
+.value {
+  padding: 15px;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
